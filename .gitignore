@@ -1,0 +1,21 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform variable values
+*.tfvars
+*.tfvars.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Generated Lambda packages
+lambda/*.zip
+
+# Private keys
+*.pem
+*.key
